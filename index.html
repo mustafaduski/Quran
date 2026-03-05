@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quran App</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+<h1>☪ Quran Kareem</h1>
+<input id="search" placeholder="Search Surah">
+</header>
+
+<div id="surah-list"></div>
+
+<div id="surah-page" class="hidden">
+<button onclick="back()">⬅ Back</button>
+<h2 id="surah-title"></h2>
+<audio id="audio" controls></audio>
+<div id="ayahs"></div>
+</div>
+
+<div id="tasbeeh" class="hidden">
+<h2>Tasbeeh</h2>
+<p id="count">0</p>
+<button onclick="tasbeeh()">Tap</button>
+</div>
+
+<div id="prayer" class="hidden">
+<h2>Prayer Times</h2>
+<p id="prayer-times">Loading...</p>
+</div>
+
+<div id="qibla" class="hidden">
+<h2>Qibla Compass</h2>
+<canvas id="compass" width="200" height="200"></canvas>
+</div>
+
+<nav>
+<button onclick="home()">Quran</button>
+<button onclick="openTasbeeh()">Tasbeeh</button>
+<button onclick="openPrayer()">Prayer Times</button>
+<button onclick="openQibla()">Qibla Compass</button>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
