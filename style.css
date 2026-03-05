@@ -1,0 +1,16 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif;}
+body{background:linear-gradient(180deg,#020617,#0f172a);color:white;padding-bottom:80px;}
+header{text-align:center;padding:20px;border-bottom:1px solid rgba(212,175,55,0.3);}
+h1{color:#d4af37;margin-bottom:10px;}
+input{width:90%;padding:12px;border-radius:12px;border:none;background:#111827;color:white;}
+#surah-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:15px;}
+.surah{background:linear-gradient(145deg,#111827,#020617);border:1px solid rgba(212,175,55,0.3);border-radius:14px;padding:15px;text-align:center;cursor:pointer;transition:0.3s;}
+.surah h3{color:#d4af37;font-size:15px;}
+.surah p{font-size:20px;direction:rtl;margin-top:6px;}
+#ayahs{font-size:24px;direction:rtl;line-height:2.2;margin-top:20px;padding:15px;}
+button{background:linear-gradient(45deg,#d4af37,#facc15);border:none;padding:10px 20px;border-radius:10px;margin:10px;}
+#tasbeeh,#prayer,#qibla{text-align:center;margin-top:40px;}
+#count{font-size:40px;color:#d4af37;margin:20px;}
+nav{position:fixed;bottom:0;width:100%;background:#020617;display:flex;justify-content:space-around;padding:10px;border-top:1px solid rgba(212,175,55,0.3);}
+nav button{background:none;color:#d4af37;font-size:16px;}
+.hidden{display:none;}
